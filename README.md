@@ -1,21 +1,21 @@
-# 🏨 Building Intelligent Travel Agents with the ADK and MCP Toolbox for Database
+<img width="468" height="42" alt="image" src="https://github.com/user-attachments/assets/17db5607-b4af-42b4-92cd-d79bb547df0f" /># 🏨 Building Intelligent Travel Agents with the ADK and MCP Toolbox for Database
 
 This Python-based AI Agent is built using the Agent Development Kit (ADK) and connects to data via the MCP Toolbox for Databases. The project functions as a travel agent capable of answering user queries about hotels, searching by location, or searching by hotel name, using data stored in Google Cloud SQL for PostgreSQL.
 
 It based on codelabs [Build a Travel Agent using MCP Toolbox for Databases and Agent Development Kit (ADK)](https://codelabs.developers.google.com/travel-agent-mcp-toolbox-adk) with little update llm model use gemini 3 pro and app name.
 
 📋 Table of Contents
-1. [Introduction]()
-2. [Technologies Used]()
-3. [Key Features]()
-4. [Prerequisites]()
-5. Setup Steps
-   - 5.1. [Google Cloud Setup]()
-   - 5.2. [Hotels Database Preparation]()
-   - 5.3. [MCP Toolbox Configuration]()
-   - 5.4. [Agent Development Kit (ADK) Setup]()
-6. [How to Run the Agent]()
-7.[Deployment]() (Optional)
+1. [Introduction](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#1-introduction)
+2. [Technologies Used](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#2-technologies-used-)
+3. [Key Features](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#3-key-features)
+4. [Prerequisites](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#4-prerequisite)
+5. [Setup Steps](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#5-setup-steps)
+   - 5.1. [Google Cloud Setup](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#51-google-cloud-setup)
+   - 5.2. [Hotels Database Preparation](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#52-hotels-database-preparation)
+   - 5.3. [MCP Toolbox Configuration](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#53-mcp-toolbox-configuration)
+   - 5.4. [Agent Development Kit (ADK) Setup](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#54-agent-development-kit-adk-setup)
+6. [How to Run the Agent](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#6-how-to-run-the-agent)
+7. [Deployment](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/README.md#7-deployment-optional) (Optional)
 
 ## 1. Introduction
 This project demonstrates how to build a stateful AI agent capable of interacting with a relational database. The MCP Toolbox acts as a control plane that simplifies the agent's access to SQL data, while the ADK provides the framework for designing, building, and running an agent that can utilize these tools.
