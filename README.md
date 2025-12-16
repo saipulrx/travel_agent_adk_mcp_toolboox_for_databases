@@ -1,4 +1,4 @@
-<img width="468" height="42" alt="image" src="https://github.com/user-attachments/assets/17db5607-b4af-42b4-92cd-d79bb547df0f" /># 🏨 Building Intelligent Travel Agents with the ADK and MCP Toolbox for Database
+# 🏨 Building Intelligent Travel Agents with the ADK and MCP Toolbox for Database
 
 This Python-based AI Agent is built using the Agent Development Kit (ADK) and connects to data via the MCP Toolbox for Databases. The project functions as a travel agent capable of answering user queries about hotels, searching by location, or searching by hotel name, using data stored in Google Cloud SQL for PostgreSQL.
 
