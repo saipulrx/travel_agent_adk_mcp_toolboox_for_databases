@@ -9,7 +9,6 @@ tools = toolbox.load_toolset('my_first_toolset')
 
 root_agent = Agent(
     name="hotel_agent",
-    #model="gemini-2.5-flash",
     model="gemini-3-pro-preview",
     description=(
         "Agent to answer questions about hotels in a city or hotels by name."
