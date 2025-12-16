@@ -108,7 +108,7 @@ curl -O https://storage.googleapis.com/genai-toolbox/v$VERSION/linux/amd64/toolb
 chmod +x toolbox
 ```
 3. Create the configuration file tools.yaml which defines the connection to Cloud SQL (my-cloud-sql-source) and the two SQL tools (search-hotels-by-name and search-hotels-by-location) along with the toolset (my_first_toolset). Remember to replace YOUR_PROJECT_ID with your actual project ID.
-(Note: The full tools.yaml content can be found in [here]().)
+(Note: The full tools.yaml content can be found in [here](https://github.com/saipulrx/travel_agent_adk_mcp_toolboox_for_databases/blob/main/mcp-toolbox/tools.yaml).)
 
 ### 5.4. Agent Development Kit (ADK) Setup
 1. Open a new terminal tab in Cloud Shell and create a folder named my-agents as follows. Navigate to the my-agents folder too
